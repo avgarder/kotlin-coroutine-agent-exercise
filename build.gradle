@@ -21,6 +21,8 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:0.14"
+    compile group: 'org.ow2.asm', name: 'asm', version: '5.0.3'
+    compile group: 'org.ow2.asm', name: 'asm-tree', version: '5.0.3'
 }
 
 kotlin {
